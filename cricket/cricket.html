@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+        integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="row">
+        <div class="col-lg-4" style="text-align: center;">
+            <h1>Cricket Game</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-6">
+            <h2>Team 1</h2>
+            <ul>
+                <li id=player0>Player 1</li>
+                <li id=player1>Player 2</li>
+                <li id=player2>Player 3</li>
+                <li id=player3>Player 4</li>
+                <li id=player4>Player 5</li>
+            </ul>
+            <hr>
+            <ul>
+                <li id="over1">over 1</li>
+                <li id="over2">over 2</li>
+                <li id="over3">over 3</li>
+            </ul>
+            <hr>
+            <button id="team1bowl" onclick="team1()">BAT 1</button>
+        </div>
+
+        <div class="col-lg-6">
+            <h2>Team 2</h2>
+            <ul>
+                <li>Player 1</li>
+                <li>Player 2</li>
+                <li>Player 3</li>
+                <li>Player 4</li>
+                <li>Player 5</li>
+            </ul>
+            <hr>
+            <ul>
+                <li>over 1</li>
+                <li>over 2</li>
+                <li>over 3</li>
+            </ul>
+            <hr>
+            <button id="team2bowl" onclick="random()">BAT 2</button>
+        </div>
+
+    </div>
+    <script src="cricket.js"></script>
+</body>
+
+</html>
